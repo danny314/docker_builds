@@ -9,7 +9,7 @@ FROM ubuntu
 
 WORKDIR /opt
 #Copy Wildfly
-ADD wildfly-core-8.1.0.Final /opt/wildfly-8.1.0.Final
+ADD wildfly-8.1.0.Final /opt/wildfly-8.1.0.Final
 
 #Copy Java8
 ADD jdk1.8.0 /opt/jdk1.8.0
